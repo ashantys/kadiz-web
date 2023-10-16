@@ -1,12 +1,22 @@
 'use client';
-import Link from 'next/link';
-import styles from './page.module.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
+import Header from "components/Header";
+import Navbar from "components/Navbar";
+import Nosotros from "components/Nosotros";
+import Servicios from "components/Servicios";
+import Contacto from "components/Contacto";
+import Footer from "components/Footer";
+
 
 export default function Home() {
   return (
       <>
-      <Link href={'/pito'}>Este es el link al pito</Link>
+        <Navbar/>
+          <Header/>
+          <Nosotros/>
+          <Servicios/>
+          <Contacto/>
+        <Footer/>
       </>
   )
 }

@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.css'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -14,6 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <body className={inter.className}>
         <div className='container-fluid'>
+          
+
           {children}
         </div>
       </body>
