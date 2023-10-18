@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import { Link as ScrollLink } from 'react-scroll';
+import Link from 'react-scroll';
 import Image from 'next/image';
 import logo from 'public/images/logo-icono.svg';
 
@@ -53,7 +53,7 @@ const Footer = () => {
                             <ul className="footer-list">
                                 {footerMenuItems.map((item, index) => (
                                     <li key={index}>
-                                    <ScrollLink
+                                    <Link
                                         to={item.sectionId}
                                         spy={true}
                                         smooth={true}
@@ -62,7 +62,7 @@ const Footer = () => {
                                         className="nav-link"
                                     >
                                         {item.title}
-                                    </ScrollLink>
+                                    </Link>
                                     </li>
                                 ))}
                             </ul>

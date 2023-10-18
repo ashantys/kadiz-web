@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Link as ScrollLink } from 'react-scroll';
+import Link from 'react-scroll';
 import Image from 'next/image';
 
 const navLinks = [
@@ -49,7 +49,7 @@ const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {navLinks.map((link, index) => (
                             <li key={index}>
-                                <ScrollLink
+                                <Link
                                     to={link.path}
                                     spy={true}
                                     smooth={true}
@@ -58,7 +58,7 @@ const Navbar = () => {
                                     className="nav-link"
                                 >
                                     {link.title}
-                                </ScrollLink>
+                                </Link>
                             </li>
                         ))}
                     </ul>
