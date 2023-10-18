@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import {Image} from 'next/image';
+import Image from 'next/image';
 import workingImage from 'public/images/working.png';
 
 const Nosotros = () =>{

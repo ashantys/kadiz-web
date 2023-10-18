@@ -2,7 +2,7 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Link as ScrollLink } from 'react-scroll';
-import {Image} from 'next/image';
+import Image from 'next/image';
 import logo from 'public/images/logo-icono.svg';
 
 const footerMenuItems = [
