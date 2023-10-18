@@ -30,7 +30,7 @@ const Footer = () => {
             <div className="container-footer">
                 <div className="row align-items-center">
                     <div className="col-lg-2">
-                        <Image className="logo-footer" src={logo} alt="logo"/>
+                        <Image className="logo-footer" src="/images/working.png" alt="logo"/>
                     </div>
                     <div className="col-lg-5">
                         <div className="container-info margin-footer">

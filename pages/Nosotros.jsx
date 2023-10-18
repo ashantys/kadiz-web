@@ -6,7 +6,7 @@ import workingImage from 'public/images/working.png';
 const Nosotros = () =>{
     return(
 <div id="nosotros">
-<Image className="img-fluid float-start hidden-on-mobile" src={workingImage} alt="img-nosotros" />
+<Image className="img-fluid float-start hidden-on-mobile" src="/images/logo-icono.svg" alt="img-nosotros" />
         <div className="container-nosotros">
             <div className="row">
                 <div className="col-sm-12 col-lg-6 col-md-10 custom-mt">
